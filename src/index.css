@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.background{
+    background-color: #151312;
+}
+
+.nav-bg{
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.font-color1{
+    color: rgba(182, 180, 189, 0.2);
+}
+
+.font-color2{
+    color: #f46c38;
+}
