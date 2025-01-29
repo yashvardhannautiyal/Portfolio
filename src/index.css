@@ -5,13 +5,17 @@
 }
 
 .nav-bg{
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(36, 36, 36, 0.808);
 }
 
 .font-color1{
     color: rgba(182, 180, 189, 0.2);
 }
 
-.font-color2{
-    color: #f46c38;
+.border-color{
+    border-color: rgba(182, 180, 189, 0.2) ;
+}
+
+.border-color:hover{
+    border-color: rgb(207, 60, 7);
 }

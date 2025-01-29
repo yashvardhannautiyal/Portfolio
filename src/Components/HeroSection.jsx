@@ -5,14 +5,16 @@ import { IoMail } from "react-icons/io5";
 function HeroSection() {
     return(
         <>
-        <div className="main-container px-20 pt-10 font-white flex justify-between">       
-        <div className = "about-container">
-        <p className=" text-3xl font-bold font-color2">YASH VARDHAN NAUTIYAL</p>
-        <div className="text-9xl font-bold">
+        <div className="main-container px-2 sm:px-18 pt-14 font-white">   
+            <div className="">    
+        <div className = "about-container ">
+        <p className="text-normal text-lg sm:text-2xl md:text-2xl lg:text-3xl font-bold text-orange-600">YASH VARDHAN NAUTIYAL</p>
+        <div className="text-6xl sm:text-6xl md:text-8xl font-bold">
         <p className="text-white">WEBSITE</p>
         <p className="font-color1">DEVELOPER</p>
         </div>
-        <p className="text-gray-400 w-3xl font-medium text-2xl">
+        </div>
+        <p className="text-gray-400 pt-2 w-full sm-w-xl md:w-3xl font-medium text-normal md:text-lg">
             <span className="text-white">Passionate about creating intuitive and engaging user experiences.</span>I'm a website developer and designer based in <span className="text-white">India</span>, passionate about delivering high-quality websites and applications.</p>
         </div>
 
