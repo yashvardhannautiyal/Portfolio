@@ -3,7 +3,7 @@
 function HeroSection() {
   return (
     <>
-      <div className="main-container px-2 sm:px-18 pt-14 font-white flex items-end gap-36">
+      <div className="main-container px-2 sm:px-18 pt-14 font-white">
         <div className="about-container">
           <div className="name-container">
             <p className="text-normal text-lg sm:text-2xl md:text-2xl lg:text-3xl font-bold text-orange-600">
