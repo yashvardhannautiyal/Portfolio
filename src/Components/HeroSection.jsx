@@ -14,7 +14,7 @@ function HeroSection() {
         <p className="font-color1">DEVELOPER</p>
         </div>
         </div>
-        <p className="text-gray-400 pt-2 w-full sm-w-xl md:w-3xl font-medium text-normal md:text-lg">
+        <p className="font-color2 pt-2 w-full sm-w-xl md:w-3xl font-medium text-normal md:text-lg">
             <span className="text-white">Passionate about creating intuitive and engaging user experiences.</span>I'm a website developer and designer based in <span className="text-white">India</span>, passionate about delivering high-quality websites and applications.</p>
         </div>
 

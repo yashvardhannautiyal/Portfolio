@@ -3,6 +3,9 @@
 .background{
     background-color: #151312;
 }
+.background2:hover{
+    background-color: rgba(182, 180, 189, 0.2);
+}
 
 .nav-bg{
     background-color: rgba(36, 36, 36, 0.808);
@@ -11,9 +14,12 @@
 .font-color1{
     color: rgba(182, 180, 189, 0.2);
 }
+.font-color2{
+    color: rgba(174, 174, 176, 0.669);
+}
 
 .border-color{
-    border-color: rgba(182, 180, 189, 0.2) ;
+    border-color: rgba(234, 233, 241, 0.2) ;
 }
 
 .border-color:hover{

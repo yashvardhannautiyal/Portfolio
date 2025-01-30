@@ -1,0 +1,64 @@
+const ProjectList = [
+  {    id: 1,
+    name: "UXNest",
+    description:
+      "UXNest is a front-end code editor helping to write, edit, and execute code in real-time with error detection feature.",
+    image: "../project_img/UXNest.png",
+    stack: "ReactJs, JavaScript, TailwindCss",
+    gitLink: "https://github.com/yashvardhannautiyal/UXNest",
+    liveLink: "https://ux-nest.vercel.app/",
+  },
+  {
+    id: 2,
+    name: "ToDoEase",
+    description:
+      "ToDoEase is a simple and efficient to-do app allowing users to add, complete, and delete task with the current date and time for reference.",
+    image: "../project_img/ToDO.png",
+    stack: "ReactJs, TailwindCss",
+    gitLink: "https://github.com/yashvardhannautiyal/To-Do-App",
+    liveLink: "https://to-do-app-two-sepia.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "BharatVoyage",
+    description:
+      "BharatVoyage is a landing page built with using Tailwind utility classes including dynamic and adaptive gallery.",
+    image: "../project_img/BharatVoyage.png",
+    stack: "HTMl, TailwindCss",
+    gitLink: "https://github.com/yashvardhannautiyal/Landing-Page",
+    liveLink: "https://landing-page-zeta-ochre-70.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Weather App",
+    description:
+      "Weather app showing current weather conditions of the given location.",
+    image: "../project_img/weather.png",
+    stack: "HTML, CSS, JavaScript",
+    gitLink: "https://github.com/yashvardhannautiyal/Weather-app",
+    liveLink: "https://yashvardhannautiyal.github.io/Weather-app/",
+  },
+  {
+    id: 5,
+    name: "Calculator",
+    description:
+      "Simple calculator app performing basic mathematic operations.",
+    image: "../project_img/calculator.png",
+    stack: "HTML, CSS, JavaScript",
+    gitLink: "https://github.com/yashvardhannautiyal/Calculator",
+    liveLink: "https://yashvardhannautiyal.github.io/Calculator/",
+  },
+  {
+    id: 6,
+    name: "Guess the Number Game",
+    description:
+      "Number guessing game where the user is scored according to the number of guesses he made.",
+    image: "../project_img/guessNum.png",
+    stack: "HTML, CSS, JavaScript",
+    gitLink: "https://github.com/yashvardhannautiyal/Guess-the-number-game",
+    liveLink: "https://yashvardhannautiyal.github.io/Guess-the-number-game/",
+  },
+  
+];
+
+export default ProjectList;
