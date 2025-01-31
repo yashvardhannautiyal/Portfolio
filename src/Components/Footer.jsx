@@ -7,7 +7,7 @@ function Footer (){
             <p className="">2025 - Made by <span className="text-orange-600">Yash Vardhan Nautiyal</span>.</p>
             </div>
             <div className="">
-                <p>Built with ReactJs & TailwindCss.</p>
+                <p>Built with ReactJs, Web3Forms & TailwindCss.</p>
             </div>
         </div>
     )

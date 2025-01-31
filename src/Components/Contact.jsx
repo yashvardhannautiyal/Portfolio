@@ -1,6 +1,5 @@
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import { IoMail } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
 function Contact() {
@@ -71,15 +70,16 @@ function Contact() {
               required
             />
           </div>
-          </form>
           <div className="btn-container flex justify-center">
           <button
             type="submit"
-            className="bg-orange-600 mt-2 sm:mt-5 rounded-md p-2 flex justify-center hover:cursor-pointer hover:bg-orange-500 w-86 sm:w-fit"
+            className="bg-orange-600 mt-3 sm:mt-5 rounded-md p-2 flex justify-center hover:cursor-pointer hover:bg-orange-500 w-full"
           >
             {isSubmitted ? "Thank You!" : "Send Message"}
           </button>
           </div>
+          </form>
+          
 
         <div className="social-container mt-10 text-3xl font-bold flex text-orange-600 gap-10 justify-center">
           <a
@@ -103,13 +103,7 @@ function Contact() {
           >
             <FaXTwitter />
           </a>
-          <a
-            href=""
-            target="_blank"
-            className="hover:text-orange-400"
-          >
-            <IoMail />
-          </a>
+          
         </div>
       </section>
     </div>
