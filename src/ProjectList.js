@@ -32,11 +32,11 @@ const ProjectList = [
     id: 4,
     name: "Weather App",
     description:
-      "Weather app showing current weather conditions of the given location.",
+      "Weather app showing current weather conditions of the given location with current date and current time.",
     image: "../project_img/weather.png",
-    stack: "HTML, CSS, JavaScript",
+    stack: "ReactJs, Tailwind CSS, JavaScript",
     gitLink: "https://github.com/yashvardhannautiyal/Weather-app",
-    liveLink: "https://yashvardhannautiyal.github.io/Weather-app/",
+    liveLink: "https://weather-app-one-iota-57.vercel.app/",
   },
   {
     id: 5,
