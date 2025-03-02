@@ -20,6 +20,26 @@ const ProjectList = [
   },
   {
     id: 3,
+    name: "MyDictionary App",
+    description:
+    "MyDictionary app with feature of dark mode fetches data from dictionary API and provides meaning with their examples to the user.",
+    image: "../project_img/dictionary.png",
+    stack: "Html, Tailwind CSS, JavaScript",
+    gitLink: "https://github.com/yashvardhannautiyal/MyDictionary",
+    liveLink: "https://my-dictionary-jade.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Weather App",
+    description:
+    "Weather app showing current weather conditions of the given location with current date and current time.",
+    image: "../project_img/weather.png",
+    stack: "ReactJs, Tailwind CSS, JavaScript",
+    gitLink: "https://github.com/yashvardhannautiyal/Weather-app",
+    liveLink: "https://weather-app-one-iota-57.vercel.app/",
+  },
+  {
+    id: 5,
     name: "BharatVoyage",
     description:
       "BharatVoyage is a landing page built with using Tailwind utility classes including dynamic and adaptive gallery.",
@@ -29,27 +49,17 @@ const ProjectList = [
     liveLink: "https://landing-page-zeta-ochre-70.vercel.app/",
   },
   {
-    id: 4,
-    name: "Weather App",
-    description:
-      "Weather app showing current weather conditions of the given location with current date and current time.",
-    image: "../project_img/weather.png",
-    stack: "ReactJs, Tailwind CSS, JavaScript",
-    gitLink: "https://github.com/yashvardhannautiyal/Weather-app",
-    liveLink: "https://weather-app-one-iota-57.vercel.app/",
-  },
-  {
-    id: 5,
+    id: 6,
     name: "Calculator",
     description:
-      "Simple calculator app performing basic mathematic operations.",
+    "Simple calculator app performing basic mathematic operations.",
     image: "../project_img/calculator.png",
     stack: "HTML, CSS, JavaScript",
     gitLink: "https://github.com/yashvardhannautiyal/Calculator",
     liveLink: "https://yashvardhannautiyal.github.io/Calculator/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Guess the Number Game",
     description:
       "Number guessing game where the user is scored according to the number of guesses he made.",
