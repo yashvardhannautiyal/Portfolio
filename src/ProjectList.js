@@ -1,5 +1,14 @@
 const ProjectList = [
   {    id: 1,
+    name: "InvestiGo",
+    description:
+      " Developed a full-stack stock trading web application that enables users to register, log in securely, manage, and track data. It integrates JWT Authentication and Chart.js for Visualization.",
+    image: "../project_img/InvestiGo.png",
+    stack: "ReactJs, Node.js, Express, MongoDB, Postman, TailwindCss",
+    gitLink: "https://github.com/yashvardhannautiyal/Investigo-stock-market-app",
+    liveLink: "https://investigo-frontend.onrender.com/",
+  },
+  {    id: 2,
     name: "UXNest",
     description:
       "UXNest is a front-end code editor helping to write, edit, and execute code in real-time with error detection feature.",
@@ -9,7 +18,7 @@ const ProjectList = [
     liveLink: "https://ux-nest.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Github User Finder",
     description:
       "GitHub User Finder is a web app that allows users to search for GitHub profiles quickly and view detailed information about them. It features a user-friendly interface with a dark mode option.",
@@ -19,7 +28,7 @@ const ProjectList = [
     liveLink: "https://github-user-finder-dun-five.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "ToDoEase",
     description:
       "ToDoEase is a simple and efficient to-do app allowing users to add, complete, and delete task with the current date and time for reference.",
@@ -29,7 +38,7 @@ const ProjectList = [
     liveLink: "https://to-do-app-two-sepia.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "MyDictionary App",
     description:
     "MyDictionary app with feature of dark mode fetches data from dictionary API and provides meaning with their examples to the user.",
@@ -39,7 +48,7 @@ const ProjectList = [
     liveLink: "https://my-dictionary-jade.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Weather App",
     description:
     "Weather app showing current weather conditions of the given location with current date and current time.",
@@ -49,7 +58,7 @@ const ProjectList = [
     liveLink: "https://weather-app-one-iota-57.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "BharatVoyage",
     description:
       "BharatVoyage is a landing page built with using Tailwind utility classes including dynamic and adaptive gallery.",
@@ -59,7 +68,7 @@ const ProjectList = [
     liveLink: "https://landing-page-zeta-ochre-70.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Calculator",
     description:
     "Simple calculator app performing basic mathematic operations.",
@@ -69,7 +78,7 @@ const ProjectList = [
     liveLink: "https://yashvardhannautiyal.github.io/Calculator/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Guess the Number Game",
     description:
       "Number guessing game where the user is scored according to the number of guesses he made.",

@@ -2,11 +2,11 @@ import SkillsList from "../SkillsList";
 
 function Skills() {
   return (
-    <div className="skills-container mt-16 pb-10 text-white">
+    <div className="skills-container text-white pt-4 pb-10">
       <div className="text-white font-bold text-4xl sm:text-6xl md:text-8xl flex justify-center">
         <p>SKILLS</p>
       </div>
-      <div className="flex flex-wrap justify-center gap-4 md:gap-10 px-1 sm:px-6 mt-10 sm:mt-14">
+      <div className="flex flex-wrap justify-center gap-2 md:gap-8 px-1 sm:px-6 mt-10 sm:mt-14">
         {SkillsList.map((skill, index) => (
           <div
             key={index}
@@ -15,9 +15,9 @@ function Skills() {
             <img
               src={skill.image}
               alt={skill.name}
-              className="w-8 sm:w-12 h-8 sm:h-12 object-contain"
+              className="w-8 sm:w-14 h-8 sm:h-12 object-contain"
             />
-            <p className="text-sm sm:text-lg sm:font-bold">{skill.name}</p>
+            <p className="text-sm font-semibold md:text-xl sm:font-bold">{skill.name}</p>
           </div>
         ))}
       </div>

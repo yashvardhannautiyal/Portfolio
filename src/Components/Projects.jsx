@@ -13,7 +13,7 @@ function Projects() {
     setvisible(ProjectList.length); //show all projects
   }
   return (
-    <div className="projects-container mt-16 text-white">
+    <div className="projects-container pt-16 text-white">
       <div className="font-bold text-4xl sm:text-6xl md:text-8xl">
         <p className="text-white flex justify-center">RECENT</p>
         <p className="font-color1 flex justify-center">PROJECTS</p>
@@ -23,23 +23,23 @@ function Projects() {
         {ProjectList.slice(0,visible).map((project, index) => (
           <div
             key={project.id}
-            className="card background2 p-2 sm:p-5 mb-10 w-xs sm:w-3xl items-center rounded-xl"
+            className="card background2 p-2 sm:p-5 mb-10 w-xs text-sm sm:text-normal sm:w-3xl items-center rounded-xl"
           >
             <img
               src={project.image}
               alt={project.name}
               className="rounded-2xl"
             />
-            <h1 className="font-bold text-normal sm:text-xl mt-2">{project.name}</h1>
+            <h1 className="font-semibold sm:font-bold sm:text-xl mt-2 sm:mt-4">{project.name}</h1>
 
-            <p className="font-medium mt-1">
+            <p className="sm:font-medium mt-2 sm:mt-3">
               Tech stack : <span className="font-color2">{project.stack}</span>
             </p>
-            <p className="description font-color2 sm:text-lg font-medium">
+            <p className="description font-color2 sm:text-lg sm:font-medium mt-2 sm:mt-3">
               {project.description}
             </p>
 
-            <div className="link-container flex gap-6 mt-3 sm:mt-0 sm:text-3xl justify-end">
+            <div className="link-container flex gap-6 sm:mt-3 sm:text-3xl justify-end">
               <a href={project.gitLink} target="_blank">
                 <FaGithub className="hover:text-amber-600" />
               </a>

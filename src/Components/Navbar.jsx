@@ -7,7 +7,7 @@ import { MdOutlineContacts } from "react-icons/md";
 function Navbar({ scroll, homeRef, skillsRef, projectsRef, contactRef }) {
   return (
     <>
-      <div className="nav-bg flex space-x-4 py-2 items-center justify-center text-white  text-sm sm:text-normal rounded-2xl w-xs font-medium fixed top-6 ">
+      <div className="nav-bg flex space-x-4 py-2 items-center justify-center text-white  text-sm sm:text-normal rounded-2xl w-xs sm:font-medium fixed top-6 ">
         <div
           className="flex-row items-center justify-items-center hover:text-orange-600 hover:cursor-pointer"
           onClick={() => scroll(homeRef)}
