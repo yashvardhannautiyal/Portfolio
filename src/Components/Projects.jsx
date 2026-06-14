@@ -30,12 +30,12 @@ function Projects() {
               alt={project.name}
               className="rounded-2xl"
             />
-            <h1 className="font-semibold sm:font-bold sm:text-xl mt-2 sm:mt-4">{project.name}</h1>
+            <h1 className="font-semibold sm:font-bold sm:text-xl mt-2 sm:mt-3">{project.name}</h1>
 
-            <p className="sm:font-medium mt-2 sm:mt-3">
+            <p className="sm:font-medium sm:text-lg mt-2">
               Tech stack : <span className="font-color2">{project.stack}</span>
             </p>
-            <p className="description font-color2 sm:text-lg sm:font-medium mt-2 sm:mt-3">
+            <p className="description font-color2 sm:text-lg sm:font-medium mt-2">
               {project.description}
             </p>
 

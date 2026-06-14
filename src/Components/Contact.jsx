@@ -40,7 +40,7 @@ function Contact() {
 
       <section className="mt-8">
         <form onSubmit={onSubmit} 
-        className="text-white w-sm sm:w-xl p-5 text-sm sm:text-normal" >
+        className="text-white w-sm sm:w-xl p-5 text-sm sm:text-lg sm:font-medium" >
           <div className="name-container flex flex-col">
             <label>Name</label>
             <input
